@@ -76,7 +76,7 @@ write-buffer-size = 10000
 
 # When queries get distributed out, the go in parallel. However, the responses must be sent in time order.
 # This setting determines how many responses can be buffered in memory per shard before data starts gettind dropped.
-query-shard-buffer-size = 1000
+query-shard-buffer-size = 10
 
 [leveldb]
 
